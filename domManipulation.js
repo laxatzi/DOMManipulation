@@ -1,6 +1,6 @@
 (function () {
+'use strict';
 
-   'use strict';
 // for...in loop
   // example
          let lunch = {
@@ -17,6 +17,7 @@
                   console.log('Value: '+ lunch[prop]);
             }
          }// end loop
+
 // Array.forEach()  method
  // example
   //? *forEach functions cannot be terminated before completed.
@@ -27,5 +28,11 @@
       console.log(index);
       console.log(pet);
    });
+
+// Computed Styles
+  // example
+  let element = document.querySelector('.firstClass');
+  let bgColor = window.getComputedStyle(element).backgroundColor;
+  console.log(bgColor);
 
 })();
