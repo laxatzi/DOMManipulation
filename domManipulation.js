@@ -36,3 +36,10 @@
   console.log(bgColor);
 
 })();
+
+// accordion IIFE
+(function () {
+   'use strict';
+   
+
+})();
